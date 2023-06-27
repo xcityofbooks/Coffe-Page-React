@@ -1,0 +1,19 @@
+.ourmenu-container {
+  background-color: #edece7;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.menu-title {
+  color: #441303;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

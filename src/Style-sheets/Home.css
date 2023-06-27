@@ -1,0 +1,57 @@
+.home-section {
+  background-image: url(../Imagenes/background_coffee.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.text-container {
+  width: 900px;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.title {
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.btns-container {
+  margin-top: 20px;
+}
+
+.btn-spl {
+  background-color: #fff;
+  margin: 7px;
+  color: #404244;
+}
+
+.btn-org {
+  background-color: #df7818;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .home-section {
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .text-container {
+    width: 550px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 100;
+  }
+}

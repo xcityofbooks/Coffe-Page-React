@@ -1,0 +1,40 @@
+.checkout-text {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  opacity: 45%;
+}
+
+.icon-chkout {
+  margin-left: 10px;
+}
+
+.checkout-container {
+  display: flex;
+  background-color: rgb(224, 224, 224);
+  margin-bottom: 20px;
+}
+
+.descriptions-container {
+  display: flex;
+  justify-content: space-between;
+  width: 82%;
+  margin-left: 10px;
+}
+
+.descriptions-container h1 {
+  font-weight: bold;
+}
+
+.btn-outline {
+  color: black;
+}
+
+.btn-outline:hover {
+  background-color: rgb(204, 201, 201);
+  text-decoration: underline;
+  color: red;
+}

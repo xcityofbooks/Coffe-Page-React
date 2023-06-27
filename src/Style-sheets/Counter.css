@@ -1,0 +1,30 @@
+.input-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80px;
+  cursor: pointer;
+}
+.input-data:hover,
+.input-data:hover input {
+  background-color: #f4f3f2;
+}
+
+.counter-input {
+  background-color: #fff;
+  width: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.btn-data {
+  width: 65px;
+  height: 35px;
+}
+
+.name-qty {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+}

@@ -1,0 +1,20 @@
+.grid-container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #441303;
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
